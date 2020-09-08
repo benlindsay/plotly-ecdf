@@ -9,7 +9,7 @@ wheel==0.35.1
 watchdog==0.10.3
 Sphinx==3.2.1
 tox==3.20.0
-twine==1.14.0
+twine==3.2.0
 
 pytest==4.6.5
 pytest-runner==5.1
