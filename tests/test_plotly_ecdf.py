@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-"""Tests for `plotly_ecdf` package."""
+"""Tests for `plotly-ecdf` package."""
 
 import pytest
 

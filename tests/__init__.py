@@ -1,1 +1,1 @@
-"""Unit test package for plotly_ecdf."""
+"""Unit test package for plotly-ecdf."""

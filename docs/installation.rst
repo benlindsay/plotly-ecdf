@@ -32,13 +32,13 @@ You can either clone the public repository:
 
 .. code-block:: console
 
-    $ git clone git://github.com/benlindsay/plotly_ecdf
+    $ git clone git://github.com/benlindsay/plotly-ecdf
 
 Or download the `tarball`_:
 
 .. code-block:: console
 
-    $ curl -OJL https://github.com/benlindsay/plotly_ecdf/tarball/master
+    $ curl -OJL https://github.com/benlindsay/plotly-ecdf/tarball/master
 
 Once you have a copy of the source, you can install it with:
 
@@ -47,5 +47,5 @@ Once you have a copy of the source, you can install it with:
     $ python setup.py install
 
 
-.. _Github repo: https://github.com/benlindsay/plotly_ecdf
-.. _tarball: https://github.com/benlindsay/plotly_ecdf/tarball/master
+.. _Github repo: https://github.com/benlindsay/plotly-ecdf
+.. _tarball: https://github.com/benlindsay/plotly-ecdf/tarball/master

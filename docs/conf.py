@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# plotly_ecdf documentation build configuration file, created by
+# plotly-ecdf documentation build configuration file, created by
 # sphinx-quickstart on Fri Jun  9 13:47:02 2017.
 #
 # This file is execfile()d with the current directory set to its
