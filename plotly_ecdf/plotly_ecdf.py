@@ -11,7 +11,7 @@ def ecdf(
     color=None,
     facet_col=None,
     facet_row=None,
-    **args
+    **args,
 ) -> plotly.graph_objects.Figure:
     """Generate ECDF plot with similar API to plotly.express plot functions
 
@@ -58,7 +58,7 @@ def ecdf(
         color=color,
         facet_col=facet_col,
         facet_row=facet_row,
-        **args
+        **args,
     )
     fig.update_traces(line_shape="hv", mode="lines+markers")
 
