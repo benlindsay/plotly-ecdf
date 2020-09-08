@@ -2,6 +2,6 @@
 
 __author__ = """Ben Lindsay"""
 __email__ = "benjlindsay@gmail.com"
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 
 from .plotly_ecdf import ecdf  # noqa
