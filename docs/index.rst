@@ -1,5 +1,5 @@
 Welcome to Plotly ECDF's documentation!
-======================================
+=======================================
 
 .. toctree::
    :maxdepth: 2

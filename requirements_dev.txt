@@ -7,7 +7,7 @@ mypy>=0.782
 pre-commit>=2.7.1
 wheel==0.33.6
 watchdog==0.9.0
-Sphinx==1.8.5
+Sphinx==3.2.1
 tox==3.14.0
 twine==1.14.0
 
