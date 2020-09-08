@@ -35,7 +35,10 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
     ],
-    description="Enables plotting ECDF curves using Plotly with a similar API to Plotly Express",
+    description=(
+        "Enables plotting ECDF curves using Plotly with a similar API to "
+        + "Plotly Express"
+    ),
     install_requires=requirements,
     license="MIT license",
     long_description=readme + "\n\n" + history,
