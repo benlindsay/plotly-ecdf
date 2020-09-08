@@ -4,8 +4,6 @@ language: python
 python:
   - 3.8
   - 3.7
-  - 3.6
-  - 3.5
 
 # Command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
 install: pip install -U tox-travis
@@ -22,7 +20,7 @@ deploy:
   distributions: sdist bdist_wheel
   user: benlindsay
   password:
-    secure: PLEASE_REPLACE_ME
+    secure: dvJqpxi32GpAP0Hh3vlgMmYknTxrDMa6Q/AMHZ4APMuwnt9YbB8Ieb6VfgBqd3GcP4wzQUkoh5beFww0OrgVcbQWow/W2XuXmXQLTVBjkQ1zEEcs4qD2SaAmMLi8e3reA73XALvSCpxMKrt9ZOd7L70fRAwnbVpP/i1r/k2emKASBdyJQW5CjgPMF7vGt4CBoJUCcuqmQl0W4WYTF/b3lIEr6YlpOnpMvXJmJ19gx1HIkDrbxYzWk2nGygPEP5y8DLxWDZAyY4eFr9fTPnrCjg5E7h/NMszyr2j0q7kpsfDUn1KKfwyDTanSiGn0A0p+2wtwsAR7swnfWP2SaiiYOJRXAb+DjBG9a81r7d4ISy2+caSX2YuaNtu1GaUG3/vuF6FCveoi+vBdLptKkMLY+y0H0oXCIAffHbfON3JMCRdXkHc/2bhMgeAQfGRgWxEWLRfVZCiv2EzLzKGX5EH/HEcv7OJ+tE8yq0tvxsGeFlYab0Y6XsetrYN3GqrrOfKpAMYHRYQahg6RhHyuM7l+hMvZheUx9BUbwd0zGRLpmiU91OeDt02c6Up/AGM84AfLZZU9qI8xuBrVxuQq4orzVf7cjYazI7szbQZqkUaEIkgwlyfkhbsjCPKYTOm9xV4gSCcPfmDeb/15HW31s0YwSwZMS0jWbeHpMnbS0w+7Jr0=
   on:
     tags: true
     repo: benlindsay/plotly_ecdf
